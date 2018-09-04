@@ -7,25 +7,26 @@ This dataset is based on simulations run by Jan Kieseler. The simualations are b
 ![alt asdf](plots/4_Muon_471.2378845214844_shower.png)
 ![alt asdf](plots/4_Muon_471.2378845214844_shower_with_pu.png)
 
-
-### Fraction
-How much of energy deposit belongs to the shower of the particle.
-
 ### Particles
 1. Electron
 2. Muon
 3. Charged Pion
 4. Gamma
 
-### Energy range
-
 ### Pileup
+The PU is 200 in this dataset.
 
-### Starter code
 
 ### Experiments
 
 1. Particle Classification
 2. Energy regression
-3. Supervised/Unsupervised denoising
+3. Supervised/unsupervised denoising
 4. Simulation (GANs)
+
+
+### EOS Path
+
+````bash
+/eos/cms/store/cmst3/group/hgcal/CMG_studies/Production/convertedH_FlatRandomPtGunProducer_jkiesele_PDGid11_id13_id211_id22_x8_Pt2.0To100_PU200_20170914/fourth/train_fourth
+```
